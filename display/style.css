@@ -1,0 +1,25 @@
+/* inline: nao quebras de linha, largura minima, nao aceita formatacao em vertical */
+.inline {
+    display: inline;
+    margin-top: 10px;
+    margin-left: 10px; 
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* block: quebra de linha, aceita margin e preenchimento vertical */
+.block{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px; 
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* inline-block nao quebra linha */
+.inline-block{
+    display: inline-block;
+    margin-top: 20px;
+    padding-top: 10px;
+}
