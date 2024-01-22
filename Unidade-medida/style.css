@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #232323;
+    color: #fff;
+    padding: 10px;
+}
+
+section {
+    /* elemento pai para as box*/
+    background-color: #ddd;
+    height: 100px;
+}
+
+.box{
+    border: 1px solid #232323;
+    display: inline-block;
+    /* margin-top: 20px; */
+    font-size: 16px;
+    width: 75px;
+
+}
+
+.px {
+    height: 10px;
+}
+
+/* root element (normalmente o padrao é 16px entao para utilizar o tamanho em rem equivalente a PX se faz (px desejado Ex 20px/16(padrao) = 1,25rRem que equivale a 20px )
+ ou (16px * 3 = 48px) (1rem=16px)*/
+
+
+.rem {
+    height: 3rem;
+}
+
+.em {
+    height: 2em;
+}
+
+.prcnt-33 {
+    height: 33%;
+}
+
+.prcnt-66 {
+    height: 66%;
+}
+
+.prcnt-100 {
+    height: 100%;
+}
+
+/* viewport height */
+.vh {
+    height: 30vh;
+}
+
+/* viewport width */
+.vw {
+    width: 50vw;
+}

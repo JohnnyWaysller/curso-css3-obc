@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
+
 header {
     text-align: center;
     text-decoration: overline;
@@ -16,7 +18,7 @@ header {
   }
   
   p {
-      font-family: sans-serif;
+      font-family: 'Montserrat', sans-serif;
   }
   
   .bold {
