@@ -32,12 +32,12 @@ section>div {
 
 }
 
-div p, .btndestaque {
+.btndestaque {
 
     padding: 10px 15px 10px 15px;
     font: normal bolder 1rem 'Calibri', sans-serif;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     display: inline-block;
     border-radius: 20px;
 }
@@ -49,7 +49,7 @@ ul {
     margin: 0.5em;
     display: inline-block;
     background-color: #66b9ed;
-    color: white;
+    color: #ffffff;
 }
 
 .leitura {

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* (n é indicacao de numero em ingles e th indicacao de orden ex:1° = 1th )
+portando é possivel indicar dentro no parametro 
+os estilos usando esse comando aplica nos filhos do elemento pai
+li:nth-child(2)
+li é pai e tudo dentro do li é filho
+*/
+
+ li:nth-child(2){
+    color: #f00;
+    /* coloca estilo no segundo elemento da lista */
+} 
+
+li:nth-child(2n){
+    color: #002aff;
+     /* coloca estilo no segundo elemento da lista e sequenciais multiplos de dois  */
+} 
+
+li:nth-child(even){
+     /* coloca estilo no elemto par  */
+} 
+li:nth-child(odd){
+     /* coloca estilo no elemto impar  */
+} 
+
+li:hover{
+    background-color: #566756;
+    /* muda estado de um elemento */
+}
+
+/* pseudoelementos
+::before e ::after
+*/
+li::before{
+    content: "(Antes)";
+    color: #f00;
+}
+li::after{
+    content: "(Depois)";
+}
+
+li:first-child {
+    color: rgb(255, 174, 0);
+    /* primeiro filho de um elemento */
+}
+
+li:last-child {
+    color: rgb(255, 0, 179);
+    /* ultimo filho de um elemento */
+}
+
+li:not(:first-child) {
+    color: rgb(0, 255, 255);
+    /* permite negar ou inverter, nesse ex: filhos que nao sao o primeiro */
+}
